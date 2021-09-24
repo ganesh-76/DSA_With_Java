@@ -5,7 +5,7 @@ public class countSetBits {
     static int countingSetBits(int n){
         int res = 0;
         while(n>0){
-            if (n%2 != 0){
+            if (n%2 != 0){          // Time Complexity = "Theta(Total bits in n)"
                 res++;
             }
             n = n/2; // When we check right most bit we found that it is n/2 after eliminating n, bcoz of series.
@@ -26,6 +26,4 @@ public class countSetBits {
         int n = 13;
         System.out.println(countingSetBits(n));
     }
-}
-
 }
