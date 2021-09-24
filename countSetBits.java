@@ -13,6 +13,6 @@ public class countSetBits {
     }
 
     public static void main(String[] args) {
-        System.out.println(countingSetBits(5));
+        System.out.println(countingSetBits(13));
     }
 }
