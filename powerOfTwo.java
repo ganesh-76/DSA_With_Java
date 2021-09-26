@@ -17,7 +17,7 @@ public class powerOfTwo {
     static boolean powerOf2(int n){     // Efficient Solution.
         if (n == 0)
             return false;
-        return ( (n & (n-1)) == 0);     // Every power of two will have single set bit in binary.
+        return ( (n & (n-1)) == 0);     // Every power of two will have single set bit in binary representation.
     }
 
      */
