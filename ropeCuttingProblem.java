@@ -8,7 +8,7 @@ public class ropeCuttingProblem {
         if (n <= -1){
             return -1;
         }
-        int res = Math.max(maxCuts(n-a, a, b, c),
+        int res = Math.max(maxCuts(n-a, a, b, c),   // Time complexity is :- "Big_O(3_power_n)"
                   Math.max(maxCuts(n-b, a, b, c),
                           maxCuts(n-c, a, b, c)));
         if (n == -1){
