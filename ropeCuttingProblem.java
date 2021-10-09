@@ -19,6 +19,7 @@ public class ropeCuttingProblem {
 
     public static void main(String[] args) {
         // int n = 5, a = 2, b = 1, c = 5;
+        // int n = 23, a = 11, b = 9, c = 12;
         int n = 9, a = 2, b = 2, c = 2;
         System.out.println(maxCuts(n, a, b, c));
     }
