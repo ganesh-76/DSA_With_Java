@@ -9,7 +9,7 @@ public class palindromeUsingRecursion {
     }
 
     public static void main(String[] args) {
-        String s = "abbcbba";
+        String s = "ganeshsenag";
         int start = 0;
         int end = s.length() - 1;
         System.out.println( isPalindrome(s, start, end) );
