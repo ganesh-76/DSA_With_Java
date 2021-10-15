@@ -12,7 +12,7 @@ public class josephusProblem {
     }
 
     public static void main(String[] args) {
-        //System.out.println( jos(7,3));      // If position begins from 0.
-        System.out.println( myJos(7,3));    // If position begins from 1.
+        //  System.out.println( jos(7,3));            // If position begins from 0.
+            System.out.println( myJos(7,3));    // If position begins from 1.
     }
 }
