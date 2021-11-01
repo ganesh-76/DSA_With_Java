@@ -181,7 +181,6 @@ public class Try2 {
        return (n&(n>>1))==0;
     }
 
-     */
     public static int maxConsecutiveOnes(int N) {
         // Your code here
         int count = 0;
@@ -191,6 +190,42 @@ public class Try2 {
             count++;
         }
         return count;
+    }
+
+    public static int grayToBinary(int n) {
+        // Your code here
+        int ans = 0;
+        for (int i=n;n>0;n=n>>1){
+            ans^=n;
+        }
+        return ans;
+    }
+
+    public static int swapBits(int n)
+    {
+        //0xAAAAAAAA means 10101010101010101010101010101010 in binary
+        //we get all even bits of n.
+        int even=n & 0xAAAAAAAA;
+        //0x55555555 means 01010101010101010101010101010101 in binary.
+        //we get all odd bits of n.
+        int odd=n & 0x55555555;
+
+        //right Shifting the even bits obtained previously.
+        even>>=1;
+        //left Shifting the even bits obtained previously.
+        odd<<=1;
+
+        //doing bitwise OR of even and odd bits obtained and
+        //returning the final result.
+        return (even | odd);
+
+    }
+
+     */
+    public static int maxAND (int arr[], int N) {
+        // Your code here
+        // You can add extra function (if required)
+
     }
     public static void main(String[] args) {
         //  System.out.println(sumOfDigits(99999));
@@ -228,7 +263,12 @@ public class Try2 {
         //  System.out.println(countBitsFlip(10,20));
         //  System.out.println(isSparse(3));
         //  System.out.println(isSparse(4));
-        System.out.println(maxConsecutiveOnes(14));
-        System.out.println(maxConsecutiveOnes(222));
+        //  System.out.println(maxConsecutiveOnes(14));
+        //  System.out.println(maxConsecutiveOnes(222));
+        //  System.out.println(grayToBinary(4));
+        //  System.out.println(grayToBinary(15));
+        //  System.out.println(swapBits(23));
+        //  System.out.println(swapBits(2));
+        //  System.out.println(maxAND(4,2,4,8,16));
     }
 }
