@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class printNto1UsingReccursion {
     /*

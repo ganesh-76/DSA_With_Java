@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class NthFibonacci {
     static int fib(int n){

@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class palindromeUsingRecursion {
     static boolean isPalindrome(String str,  int start, int end){ // start=0;end=n-1;

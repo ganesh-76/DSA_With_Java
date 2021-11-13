@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class towerOfHanoi {
     static void TOH(int n, char A, char B, char C){

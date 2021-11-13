@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class print_1ToN_usingRecursion {
     static void print1toN(int n){

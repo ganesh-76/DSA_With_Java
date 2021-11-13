@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class sumOfDigits {
     static int digitsSum(int n){

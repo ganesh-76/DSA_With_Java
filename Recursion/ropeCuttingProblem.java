@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class ropeCuttingProblem {
     static int maxCuts(int n, int a, int b, int c){

@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
 
 public class sumOfNusingRecursion {
     static int getSumofN(int n){

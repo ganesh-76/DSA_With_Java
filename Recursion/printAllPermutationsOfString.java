@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Recursion;
     // Java program to print all permutations of a
 // given string.
     public class printAllPermutationsOfString
