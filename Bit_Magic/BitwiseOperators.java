@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Bit_Magic;
 
 public class BitwiseOperators {
     public static void main(String[] args) {
