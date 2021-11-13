@@ -1,4 +1,7 @@
 package com.example.test;
+//  Given an array arr[] of length n and an integer sum,
+//  the task is to find the number of subsets with a sum equal to
+//  sum.
 
 public class countSubset {
     static int countingSubsets(int arr[], int n, int sum){
