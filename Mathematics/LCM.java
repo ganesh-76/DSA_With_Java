@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Mathematics;
 
 public class LCM {
 //    static int lcm(int a,int b){    // Time Complexity "O(a*b - max(a,b))"

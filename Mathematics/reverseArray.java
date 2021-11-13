@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Mathematics;
 
 public class reverseArray {
     static void reverseArray1(int arr[], int start, int end) {

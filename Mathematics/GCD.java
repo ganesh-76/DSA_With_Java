@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Mathematics;
 
 public class GCD {
 //    static int gcd(int a, int b){

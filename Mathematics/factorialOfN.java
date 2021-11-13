@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Mathematics;
 
 public class factorialOfN {
 //    static int fact(int n){
