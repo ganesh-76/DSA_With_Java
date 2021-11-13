@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Bit_Magic;
 public class findOddOccuring {
     /*
     static int findOdd(int arr[],int n){

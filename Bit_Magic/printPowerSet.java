@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.test.Bit_Magic;
 
 public class printPowerSet {
     static void printingPowerSet(String str){
