@@ -19,7 +19,7 @@ public class deleteElementFromArray {
         return n-1;
     }
     public static void main(String[] args){
-        int arr[] = {2,3,4,6,7};
+        int arr[] = {2,3,4,9,7};
         int x = 9;
         int n = 5;
         n = deleteElementInArray(arr, x, n);
