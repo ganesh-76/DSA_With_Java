@@ -8,7 +8,7 @@ public class stockBuyAndSellProblem {
 
         int profit = 0;
 
-        for (int i = start; i < end; i++) {
+        for (int i = start; i < end; i++) {                         //  Time Complexity is :- "Big_O(n_square)"
             for (int j = i + 1; j <= end; j++) {
                 if (price[j] > price[i]) {
                     int curr_profit = price[j] - price[i]
