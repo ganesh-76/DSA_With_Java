@@ -16,7 +16,7 @@ public class maximumSumSubarray {
     }
 
      */
-
+    //   Kadane's algorithm
     public static int maximumSumOfSubArray(int arr[]){
         int n = arr.length;
         int res = arr[0];
