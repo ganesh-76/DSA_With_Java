@@ -2,7 +2,7 @@ package com.example.test.Array;
 
 public class maximumCircularSumOfSubarray {
     /*
-    //  KADANE'S ALGORITHM
+    //  Kadane's Algorithm
     public static int maximunCircularSumOfSubArray(int arr[]){
     }
         int n = arr.length;
