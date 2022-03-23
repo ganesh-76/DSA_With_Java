@@ -33,7 +33,7 @@ public class mejorityElements {
                 count++;
             }
             else {
-                count--;
+                count--;                // Here we are finding the position of mejority element.
             }
             if (count == 0){
                 res = i;
@@ -44,9 +44,9 @@ public class mejorityElements {
         count=0;
         for (int i=0;i<n;i++) {             // Time Complexity is :- Big_O(n)
             if (arr[res] == arr[i]) {
-                count++;
-            }
-        }
+                count++;                    // And here we are using that previous position of that element to
+            }                               // compare with all the elements in the array and checking the count as if count is greater that the
+        }                                   // (ArrayElements/2) then it is the mejority element.
         if (count<=n/2){
             res = -1;
         }
